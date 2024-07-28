@@ -15,32 +15,20 @@ This Exercise is a console-based application that helps astronauts organize thei
 3. **Observer Pattern**
    - **Use Case**: Task Conflict Notification
 
-##Project Structure
+Task.java: Represents a task with description, start time, end time, and priority level.
 
-```plaintext
-src/
-|-- main/
-|   |-- java/
-|       |-- com/
-|           |-- astronaut/
-|               |-- schedule/
-|                   |-- Main.java
-|                   |-- ScheduleManager.java
-|                   |-- Task.java
-|                   |-- TaskFactory.java
-|                   |-- TaskObserver.java
-|                   |-- ConflictObserver.java
-|                   |-- Logger.java
-|                   |-- TaskConflictException.java
+TaskFactory.java: Factory class to create Task objects.
 
-**Task.java:** Represents a task with description, start time, end time, and priority level.
-**TaskFactory.java:** Factory class to create Task objects.
-**TaskObserver.java:** Interface for observers to get notifications about task updates.
-**ConflictObserver.java:** Concrete observer that checks for task conflicts.
-**ScheduleManager.java:** Singleton class that manages tasks.
-**Logger.java:**Utility class for logging.
-**TaskConflictException.java:** Custom exception for task conflicts.
-**Main.java:** Main class to run the application.
+TaskObserver.java: Interface for observers to get notifications about task updates.
 
+ConflictObserver.java: Concrete observer that checks for task conflicts.
+
+ScheduleManager.java: Singleton class that manages tasks.
+
+Logger.java: Utility class for logging.
+
+TaskConflictException.java: Custom exception for task conflicts.
+
+Main.java: Main class to run the application.
 
 
