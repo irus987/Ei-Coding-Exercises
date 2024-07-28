@@ -1,38 +1,32 @@
-# Design Patterns in Java(Exercise 1)
+# Design Patterns in Java(Exercise-1)
 
 ## Overview
 
-This project demonstrates various software design patterns using Java through practical use cases. Each pattern is implemented in a dedicated section with clear examples and explanations.
+This Exercise demonstrates various software design patterns using Java through practical use cases. Each pattern is implemented in a dedicated section with examples and explanations.
 
 ## Behavioral Design Patterns
 
-1. **Observer Pattern**:
-   - **Use Case**: A stock price monitoring application where multiple clients (observers) are notified whenever there's a change in stock prices.
-   - **Explanation**: The stock prices change frequently, and all registered clients need to be updated about the latest prices.
+1. **Observer Pattern**
+   - **Use Case**: Stock Price Monitoring
 
-2. **Strategy Pattern**:
-   - **Use Case**: A payment processing system where different payment methods (strategies) like Credit Card, PayPal, and Bitcoin can be used interchangeably.
-   - **Explanation**: Users can select their preferred payment method at runtime, and the system processes the payment accordingly.
+2. **Strategy Pattern**
+   - **Use Case**: Payment Processing
 
 ## Creational Design Patterns
 
-3. **Singleton Pattern**:
-   - **Use Case**: A configuration manager that ensures a single instance of configuration settings throughout the application.
-   - **Explanation**: The application needs a central configuration that can be accessed and modified consistently by different parts of the system.
+3. **Singleton Pattern**
+   - **Use Case**: Configuration Manager
 
-4. **Factory Pattern**:
-   - **Use Case**: A vehicle manufacturing system that creates different types of vehicles (car, bike, truck) using a factory method.
-   - **Explanation**: The factory method allows creating objects without specifying the exact class of object that will be created.
+4. **Factory Pattern**
+   - **Use Case**: Vehicle Manufacturing
 
 ## Structural Design Patterns
 
-5. **Adapter Pattern**:
-   - **Use Case**: A legacy billing system that needs to integrate with a modern payment gateway.
-   - **Explanation**: The adapter converts the interface of the legacy system to be compatible with the modern payment gateway.
+5. **Adapter Pattern**
+   - **Use Case**: Billing System Integration
 
-6. **Decorator Pattern**:
-   - **Use Case**: An order processing system where different types of toppings can be added to a pizza order dynamically.
-   - **Explanation**: The decorator pattern allows adding responsibilities to objects at runtime, providing a flexible alternative to subclassing.
+6. **Decorator Pattern**
+   - **Use Case**: Pizza Toppings
 
 ## Structure
 
