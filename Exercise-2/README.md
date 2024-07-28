@@ -1,18 +1,46 @@
-## Getting Started
+# Astronaut Daily Schedule Organizer
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
 
-## Folder Structure
+This Exercise is a console-based application that helps astronauts organize their daily schedules. It demonstrates the use of Singleton, Factory, and Observer design patterns.
 
-The workspace contains two folders by default, where:
+## Design Patterns
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. **Singleton Pattern**
+   - **Use Case**: Schedule Manager
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. **Factory Pattern**
+   - **Use Case**: Task Creation
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3. **Observer Pattern**
+   - **Use Case**: Task Conflict Notification
 
-## Dependency Management
+##Project Structure
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```plaintext
+src/
+|-- main/
+|   |-- java/
+|       |-- com/
+|           |-- astronaut/
+|               |-- schedule/
+|                   |-- Main.java
+|                   |-- ScheduleManager.java
+|                   |-- Task.java
+|                   |-- TaskFactory.java
+|                   |-- TaskObserver.java
+|                   |-- ConflictObserver.java
+|                   |-- Logger.java
+|                   |-- TaskConflictException.java
+
+**Task.java:** Represents a task with description, start time, end time, and priority level.
+**TaskFactory.java:** Factory class to create Task objects.
+**TaskObserver.java:** Interface for observers to get notifications about task updates.
+**ConflictObserver.java:** Concrete observer that checks for task conflicts.
+**ScheduleManager.java:** Singleton class that manages tasks.
+**Logger.java:**Utility class for logging.
+**TaskConflictException.java:** Custom exception for task conflicts.
+**Main.java:** Main class to run the application.
+
+![image](https://github.com/user-attachments/assets/04ffd06b-0963-4a0b-b944-55cf95221792)
+
