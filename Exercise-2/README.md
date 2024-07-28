@@ -42,5 +42,5 @@ src/
 **TaskConflictException.java:** Custom exception for task conflicts.
 **Main.java:** Main class to run the application.
 
-![image](https://github.com/user-attachments/assets/04ffd06b-0963-4a0b-b944-55cf95221792)
+
 
