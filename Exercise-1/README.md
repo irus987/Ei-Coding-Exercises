@@ -41,6 +41,6 @@ This Exercise demonstrates various software design patterns using Java through p
 ## Usage
 
 ### Running the Application
-To run the demo for each design pattern, execute the corresponding `*PatternDemo.java` file.
+To run the demo for each design pattern, execute the corresponding `PatternDemo.java` file.
 
 
