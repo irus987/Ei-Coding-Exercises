@@ -49,6 +49,11 @@ Main.java: Main class to run the application.
 
 ![image](https://github.com/user-attachments/assets/93810938-eb2d-4283-b5d1-b9ac78f6430c)
 
+## Usage
+
+### Running the Application
+To run the demo for each design pattern, execute the corresponding `Main.java` file.
+
 
 
 
